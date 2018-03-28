@@ -10,6 +10,8 @@ app.use(bodyParser.json());
 const adapter = new FileSync('db.json');
 const db = low(adapter);
 
+const port = process.env.port || 8081;
+
 db.defaults({ todos: [] })
   .write();
 
@@ -84,4 +86,5 @@ app.delete('/todos', function(req, res) {
     res.send(db.get('todos'));
 });
 
-app.listen(8081);
+app.listen(port);
+console.log(`Listening to ${port}`);

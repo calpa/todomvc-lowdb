@@ -2,6 +2,8 @@
 
 This is a database using express.js + lowdb.
 
+Github Repo: https://github.com/calpa/todomvc-lowdb
+
 ## Support
 1. Add todo
 2. Modify todo with provided id
