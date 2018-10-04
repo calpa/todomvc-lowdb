@@ -1,5 +1,7 @@
 ## todomvc-lowdb
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/calpa/todomvc-lowdb.svg)](https://greenkeeper.io/)
+
 This is a database using express.js + lowdb.
 
 Github Repo: https://github.com/calpa/todomvc-lowdb
